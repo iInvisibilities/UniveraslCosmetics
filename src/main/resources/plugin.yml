@@ -1,0 +1,13 @@
+name: Cosmetics
+version: '${project.version}'
+main: me.invis.cosmetics.Cosmetics
+api-version: 1.13
+author: Invisibilities
+description: A non configurable cosmetics plugin!
+commands:
+  cosmetics:
+    description: "Main cosmetics plugin command"
+    permission: cosmetics.command
+    permission-message: 'Unknown command. Type "/help" for help.'
+    aliases:
+      - cosmetic
